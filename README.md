@@ -24,6 +24,10 @@ After a powercycle of the device, the unit should self populate the text fields 
 In case not, use the button:
 9. Update Text Fields
 
+Commands are sep
+
 There is a sensor comparing the stored commands to the ones present in the text fields.
 In case you are updating the text fields, the sensor will write "Update available", indicating that there is unsaved commands.
+
+![image](https://github.com/JohanMuller94/ESP32-RS232/assets/77045793/0e9cf663-028c-444a-8b8b-e4d9e346c0c9)
 
