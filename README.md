@@ -2,6 +2,8 @@
 Captive portal for configuring an easy RS232 communication device, to integrate with HA through ESPHome.
 This project is made with projector control in mind.
 
+In terms of hardware, a MAX3232 is needed in order to translate the ESP32 TTL level serial to RS232. RX Pin from MAX goes to pin 16, TX pin to 17.
+
 Remember to correct UART settings like baud rate. Look up the documentation of the device to make sure there is a match.
 Commonly used is the current setting of this file. You might be lucky that it works.
 
