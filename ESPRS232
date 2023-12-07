@@ -14,7 +14,7 @@ logger:
 
 api:
   encryption:
-    key: " "
+    key: "INSERT NEW KEY HERE"
   on_client_connected:
     then:
       - lambda: |-
@@ -43,15 +43,6 @@ globals:
   - id: fb_answer_off_stored
     type: std::string
     restore_value: yes
-
-
-wifi:
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
-
-  ap:
-    ssid: "ESP32RS232"
-    password: "Rs232isfun"
 
 captive_portal:
 
