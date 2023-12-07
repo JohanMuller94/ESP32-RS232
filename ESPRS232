@@ -14,7 +14,7 @@ logger:
 
 api:
   encryption:
-    key: "tOcCopJCs9Uy1B23RBLbCIwsfTJQcVBWxKbVUZnkg+Q="
+    key: " "
   on_client_connected:
     then:
       - lambda: |-
